@@ -34,4 +34,15 @@ public class GettingStartedTest {
         int result = new GettingStarted().addFive(-20);
         Assertions.assertEquals(-15,result);
     }
+   
+//	 dont do   
+//   @Test
+//   public void badTestingPractice() {
+//	   int result = g.addFive(0);
+//	   Assertions.assertEquals(5, result);
+//	   result = g.addFive(1);
+//	   Assertions.assertEquals(5, result);
+//	   result = g.addFive(2);
+//	   Assertions.assertEquals(5, result);
+   }
 }
